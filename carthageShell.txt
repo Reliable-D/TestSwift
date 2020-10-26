@@ -1,0 +1,1 @@
+./carthage.sh bootstrap --platform iOS --cache-builds

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class TestView: UIView {
 
@@ -50,16 +49,16 @@ class TestView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(bgView)
-        bgView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview().inset(UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
-        }
-        bgView.addSubview(btn)
-        btn.snp.makeConstraints { (make) in
-            make.height.equalTo(44)
-            make.left.equalTo(15)
-            make.right.equalTo(-15)
-            make.centerY.equalToSuperview()
-        } 
+//        bgView.snp.makeConstraints { (make) in
+//            make.edges.equalToSuperview().inset(UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+//        }
+//        bgView.addSubview(btn)
+//        btn.snp.makeConstraints { (make) in
+//            make.height.equalTo(44)
+//            make.left.equalTo(15)
+//            make.right.equalTo(-15)
+//            make.centerY.equalToSuperview()
+//        }
         addSubview(breaklinView)
         addSubview(breaklinView1)
         addSubview(breaklinView2)
@@ -75,17 +74,17 @@ class TestView: UIView {
         ]
         NSLayoutConstraint.activate(breakLine)
         
-        breaklinView1.snp.makeConstraints { (make) in
-            make.centerX.equalTo(self).multipliedBy(0.5)
-            make.centerY.equalTo(breaklinView)
-            make.size.equalTo(CGSize(width: 100, height: 50))
-        }
-        
-        breaklinView2.snp.makeConstraints { (make) in
-            make.centerX.equalTo(self).multipliedBy(1.5)
-            make.centerY.equalTo(breaklinView)
-            make.size.equalTo(CGSize(width: 100, height: 50))
-        }
+//        breaklinView1.snp.makeConstraints { (make) in
+//            make.centerX.equalTo(self).multipliedBy(0.5)
+//            make.centerY.equalTo(breaklinView)
+//            make.size.equalTo(CGSize(width: 100, height: 50))
+//        }
+//
+//        breaklinView2.snp.makeConstraints { (make) in
+//            make.centerX.equalTo(self).multipliedBy(1.5)
+//            make.centerY.equalTo(breaklinView)
+//            make.size.equalTo(CGSize(width: 100, height: 50))
+//        }
     }
     
     required init?(coder: NSCoder) {

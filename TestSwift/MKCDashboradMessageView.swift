@@ -25,10 +25,10 @@ class  MKCDashboradMessageCell: UITableViewCell {
         contentView.backgroundColor = UIColor.clear
         titlLabel.numberOfLines = 1
         contentView.addSubview(titlLabel)
-        titlLabel.snp.makeConstraints { (make) in
-            make.left.top.bottom.equalToSuperview()
-            make.right.equalTo(-10)
-        }
+//        titlLabel.snp.makeConstraints { (make) in
+//            make.left.top.bottom.equalToSuperview()
+//            make.right.equalTo(-10)
+//        }
     }
 
     required init?(coder: NSCoder) {
@@ -62,15 +62,15 @@ class MKCDashboradMessageView: UIView {
         tableView.register(MKCDashboradMessageCell.self, forCellReuseIdentifier: "MKCDashboradMessageCell")
         addSubview(bgImageView)
 //        bgImageView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 50)
-        bgImageView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
-        addSubview(tableView)
-        tableView.snp.makeConstraints { (make) in
-            make.left.equalTo(90)
-            make.center.right.equalTo(bgImageView)
-            make.height.equalTo(30)
-        }
+//        bgImageView.snp.makeConstraints { (make) in
+//            make.edges.equalToSuperview()
+//        }
+//        addSubview(tableView)
+//        tableView.snp.makeConstraints { (make) in
+//            make.left.equalTo(90)
+//            make.center.right.equalTo(bgImageView)
+//            make.height.equalTo(30)
+//        }
     }
 
     required init?(coder: NSCoder) {

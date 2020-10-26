@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0EBA2B24E1412C0029FC99 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0C0EBA2A24E1412C0029FC99 /* Kingfisher */; };
 		0C3072FD24920031006C3791 /* MKCDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3072FC24920030006C3791 /* MKCDashView.swift */; };
+		0C8EA11A24E2A240004E3E41 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0C8EA11924E2A240004E3E41 /* Alamofire */; };
+		0C8EA11D24E2A8B2004E3E41 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0C8EA11C24E2A8B2004E3E41 /* RxSwift */; };
+		0C8EA11F24E2A8B2004E3E41 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0C8EA11E24E2A8B2004E3E41 /* RxCocoa */; };
 		0C96860C2499FCE700D78DAF /* MKCDashboradMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C96860B2499FCE700D78DAF /* MKCDashboradMessageView.swift */; };
 		0C96860E2499FDBB00D78DAF /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C96860D2499FDBB00D78DAF /* UIColor+Ext.swift */; };
+		0CA795392546C6BA000E0CEC /* Cupcake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA795382546C6BA000E0CEC /* Cupcake.framework */; };
 		0CFC102D247F991A00CE3F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC102C247F991A00CE3F41 /* AppDelegate.swift */; };
 		0CFC102F247F991A00CE3F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC102E247F991A00CE3F41 /* SceneDelegate.swift */; };
 		0CFC1031247F991A00CE3F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC1030247F991A00CE3F41 /* ViewController.swift */; };
 		0CFC1034247F991A00CE3F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC1032247F991A00CE3F41 /* Main.storyboard */; };
 		0CFC1036247F991F00CE3F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC1035247F991F00CE3F41 /* Assets.xcassets */; };
 		0CFC1039247F991F00CE3F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC1037247F991F00CE3F41 /* LaunchScreen.storyboard */; };
-		0CFC1042247F9A2900CE3F41 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFC1041247F9A2900CE3F41 /* SnapKit */; };
 		0CFC1044247F9B4600CE3F41 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC1043247F9B4600CE3F41 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,7 @@
 		0C3072FC24920030006C3791 /* MKCDashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKCDashView.swift; sourceTree = "<group>"; };
 		0C96860B2499FCE700D78DAF /* MKCDashboradMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKCDashboradMessageView.swift; sourceTree = "<group>"; };
 		0C96860D2499FDBB00D78DAF /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		0CA795382546C6BA000E0CEC /* Cupcake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cupcake.framework; path = Carthage/Build/iOS/Cupcake.framework; sourceTree = "<group>"; };
 		0CFC1029247F991A00CE3F41 /* TestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFC102C247F991A00CE3F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFC102E247F991A00CE3F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,18 +45,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFC1042247F9A2900CE3F41 /* SnapKit in Frameworks */,
+				0C8EA11A24E2A240004E3E41 /* Alamofire in Frameworks */,
+				0C0EBA2B24E1412C0029FC99 /* Kingfisher in Frameworks */,
+				0C8EA11F24E2A8B2004E3E41 /* RxCocoa in Frameworks */,
+				0C8EA11D24E2A8B2004E3E41 /* RxSwift in Frameworks */,
+				0CA795392546C6BA000E0CEC /* Cupcake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C82585F24E50E8300918A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA795382546C6BA000E0CEC /* Cupcake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0CFC1020247F991A00CE3F41 = {
 			isa = PBXGroup;
 			children = (
 				0CFC102B247F991A00CE3F41 /* TestSwift */,
 				0CFC102A247F991A00CE3F41 /* Products */,
+				0C82585F24E50E8300918A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +109,7 @@
 				0CFC1025247F991A00CE3F41 /* Sources */,
 				0CFC1026247F991A00CE3F41 /* Frameworks */,
 				0CFC1027247F991A00CE3F41 /* Resources */,
+				0CA7953C2546C6C7000E0CEC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -98,7 +117,10 @@
 			);
 			name = TestSwift;
 			packageProductDependencies = (
-				0CFC1041247F9A2900CE3F41 /* SnapKit */,
+				0C0EBA2A24E1412C0029FC99 /* Kingfisher */,
+				0C8EA11924E2A240004E3E41 /* Alamofire */,
+				0C8EA11C24E2A8B2004E3E41 /* RxSwift */,
+				0C8EA11E24E2A8B2004E3E41 /* RxCocoa */,
 			);
 			productName = TestSwift;
 			productReference = 0CFC1029247F991A00CE3F41 /* TestSwift.app */;
@@ -129,8 +151,9 @@
 			);
 			mainGroup = 0CFC1020247F991A00CE3F41;
 			packageReferences = (
-				0CFC1040247F9A2900CE3F41 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				0CA55F1C2490EDCE00B64D5B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				0C0EBA2924E1412C0029FC99 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0C8EA11824E2A240004E3E41 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0C8EA11B24E2A8B2004E3E41 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 0CFC102A247F991A00CE3F41 /* Products */;
 			projectDirPath = "";
@@ -153,6 +176,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA7953C2546C6C7000E0CEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Cupcake.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Cupcake.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0CFC1025247F991A00CE3F41 /* Sources */ = {
@@ -310,6 +355,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,6 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,29 +416,52 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0CA55F1C2490EDCE00B64D5B /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+		0C0EBA2924E1412C0029FC99 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-cocoa";
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.2;
+				minimumVersion = 5.14.1;
 			};
 		};
-		0CFC1040247F9A2900CE3F41 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		0C8EA11824E2A240004E3E41 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
+				minimumVersion = 5.2.2;
+			};
+		};
+		0C8EA11B24E2A8B2004E3E41 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0CFC1041247F9A2900CE3F41 /* SnapKit */ = {
+		0C0EBA2A24E1412C0029FC99 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0CFC1040247F9A2900CE3F41 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
+			package = 0C0EBA2924E1412C0029FC99 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		0C8EA11924E2A240004E3E41 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C8EA11824E2A240004E3E41 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0C8EA11C24E2A8B2004E3E41 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C8EA11B24E2A8B2004E3E41 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		0C8EA11E24E2A8B2004E3E41 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C8EA11B24E2A8B2004E3E41 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

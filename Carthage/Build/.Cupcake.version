@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.3.1",
+  "iOS" : [
+    {
+      "hash" : "44ba3cfa7189f411a7f31d58d0f1c3ca7c5d527015e1fbe32edf8ae5befedc9b",
+      "name" : "Cupcake",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}
